@@ -6,9 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <p>HELLO </p>
     <script>
-        widnow.location.replace("outnabout://group/1")
+        const path = window.location.pathname;
+        widnow.location.replace("outnabout://" + path);
     </script>
 </body>
 </html>
