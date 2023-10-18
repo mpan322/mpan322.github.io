@@ -6,9 +6,13 @@
     <title>Document</title>
 </head>
 <body>
+    <button onclick="(() => {
+        redirect();
+    })()"></button>
     <script>
-        const path = window.location.pathname;
-        window.location.replace("outnabout://" + path);
+        function redirect() {
+            window.location.replace("outnabout://group/652d3d39d75e0bcc26fe4e34");
+        }
     </script>
 </body>
 </html>
