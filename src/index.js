@@ -21,7 +21,7 @@ if (!fs.existsSync(PUBLIC_DIR)) {
 }
 
 // get output directory + validation
-const OUTPUT_DIR = path.join(__dirname, "../dist");
+const OUTPUT_DIR = path.join(__dirname, "../docs");
 if (!fs.existsSync(OUTPUT_DIR)) {
     console.log("creating new output directory.");
     fs.mkdirSync(OUTPUT_DIR);
